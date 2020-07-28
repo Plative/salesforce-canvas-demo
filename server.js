@@ -15,6 +15,7 @@ app.use(express.static(__dirname + '/public'));
 app.post('/signedrequest', function(req, res) {
 
     // You could save this information in the user session if needed
+	console.log(req.body.signed_request);
     var signedRequest = decode(req.body.signed_request, consumerSecret),
         context = signedRequest.context,
         oauthToken = signedRequest.client.oauthToken,
