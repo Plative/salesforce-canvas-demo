@@ -24,6 +24,15 @@
 <th class="" scope="col">
 <div class="slds-truncate" title="Amount">Amount</div>
 </th>
+<th class="" scope="col">
+<div class="slds-truncate" title="User">User</div>
+</th>
+<th class="" scope="col">
+<div class="slds-truncate" title="Type">Type</div>
+</th>
+<th class="" scope="col">
+<div class="slds-truncate" title="Record">Record</div>
+</th>
 </tr>
 </thead>
 <tbody>
@@ -42,6 +51,15 @@
 	<td data-label="Amount">
 		<div class="slds-truncate" title="Prospecting">$1000</div>
 	</td>
+	<td data-label="User">
+		<div class="slds-truncate" title="User"><%= context.user.fullName %></div>
+	</td>
+	<td data-label="Type">
+		<div class="slds-truncate" title="Type"><%= context.environment.record.attributes.type %></div>
+	</td>
+	<td data-label="Type">
+		<div class="slds-truncate" title="Record"><%= context.environment.record.Id %></div>
+	</td>
 </tr>
 
 <tr class="slds-hint-parent">
@@ -59,6 +77,15 @@
 	<td data-label="Amount">
 		<div class="slds-truncate" title="Prospecting">$1200</div>
 	</td>
+	<td data-label="User">
+		<div class="slds-truncate" title="User"><%= context.user.fullName %></div>
+	</td>
+	<td data-label="Type">
+		<div class="slds-truncate" title="Type"><%= context.environment.record.attributes.type %></div>
+	</td>
+	<td data-label="Type">
+		<div class="slds-truncate" title="Record"><%= context.environment.record.Id %></div>
+	</td>
 </tr>
 
 <tr class="slds-hint-parent">
@@ -75,6 +102,15 @@
 	</td>
 	<td data-label="Amount">
 		<div class="slds-truncate" title="Prospecting">$300</div>
+	</td>
+	<td data-label="User">
+		<div class="slds-truncate" title="User"><%= context.user.fullName %></div>
+	</td>
+	<td data-label="Type">
+		<div class="slds-truncate" title="Type"><%= context.environment.record.attributes.type %></div>
+	</td>
+	<td data-label="Type">
+		<div class="slds-truncate" title="Record"><%= context.environment.record.Id %></div>
 	</td>
 </tr>
 
