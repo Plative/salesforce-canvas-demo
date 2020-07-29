@@ -3,118 +3,118 @@
 
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <link href="styles.css" rel="stylesheet">
+	<meta charset="utf-8">
+	<link href="styles.css" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/design-system/2.12.1/styles/salesforce-lightning-design-system.min.css">
 </head>
 <body>
+<div class="slds-m-bottom_large">
+	<table class="slds-table slds-table_cell-buffer slds-table_bordered">
+		<thead>
+			<tr class="slds-line-height_reset">
+				<th class="" scope="col">
+					<div class="slds-truncate" title="Type">Type</div>
+				</th>
+				<th class="" scope="col">
+					<div class="slds-truncate" title="Account Name">Account Name</div>
+				</th>
+				<th class="" scope="col">
+					<div class="slds-truncate" title="Close Date">Close Date</div>
+				</th>
+				<th class="" scope="col">
+					<div class="slds-truncate" title="Amount">Amount</div>
+				</th>
+				<th class="" scope="col">
+					<div class="slds-truncate" title="User">User</div>
+				</th>
+				<th class="" scope="col">
+					<div class="slds-truncate" title="Type">Type</div>
+				</th>
+				<th class="" scope="col">
+					<div class="slds-truncate" title="Record">Record</div>
+				</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class="slds-hint-parent">
+				<th data-label="Type" scope="row">
+					<div class="slds-truncate" title="Cloudhub">
+						<a href="javascript:void(0);" tabindex="-1">Payment</a>
+					</div>
+				</th>
+				<td data-label="Account Name">
+					<div class="slds-truncate" title="Cloudhub">Cloudhub</div>
+				</td>
+				<td data-label="Close Date">
+					<div class="slds-truncate" title="4/14/2015">4/14/2015</div>
+				</td>
+				<td data-label="Amount">
+					<div class="slds-truncate" title="Prospecting">$1000</div>
+				</td>
+				<td data-label="User">
+					<div class="slds-truncate" title="User"><%= context.user.fullName %></div>
+				</td>
+				<td data-label="Type">
+					<div class="slds-truncate" title="Type"><%= context.environment.record.attributes.type %></div>
+				</td>
+				<td data-label="Type">
+					<div class="slds-truncate" title="Record"><%= context.environment.record.Id %></div>
+				</td>
+			</tr>
 
-<table class="slds-table slds-table_cell-buffer slds-table_bordered">
-<thead>
-<tr class="slds-line-height_reset">
-<th class="" scope="col">
-<div class="slds-truncate" title="Type">Type</div>
-</th>
-<th class="" scope="col">
-<div class="slds-truncate" title="Account Name">Account Name</div>
-</th>
-<th class="" scope="col">
-<div class="slds-truncate" title="Close Date">Close Date</div>
-</th>
-<th class="" scope="col">
-<div class="slds-truncate" title="Amount">Amount</div>
-</th>
-<th class="" scope="col">
-<div class="slds-truncate" title="User">User</div>
-</th>
-<th class="" scope="col">
-<div class="slds-truncate" title="Type">Type</div>
-</th>
-<th class="" scope="col">
-<div class="slds-truncate" title="Record">Record</div>
-</th>
-</tr>
-</thead>
-<tbody>
-<tr class="slds-hint-parent">
-	<th data-label="Type" scope="row">
-		<div class="slds-truncate" title="Cloudhub">
-		<a href="javascript:void(0);" tabindex="-1">Payment</a>
-		</div>
-	</th>
-	<td data-label="Account Name">
-		<div class="slds-truncate" title="Cloudhub">Cloudhub</div>
-	</td>
-	<td data-label="Close Date">
-		<div class="slds-truncate" title="4/14/2015">4/14/2015</div>
-	</td>
-	<td data-label="Amount">
-		<div class="slds-truncate" title="Prospecting">$1000</div>
-	</td>
-	<td data-label="User">
-		<div class="slds-truncate" title="User"><%= context.user.fullName %></div>
-	</td>
-	<td data-label="Type">
-		<div class="slds-truncate" title="Type"><%= context.environment.record.attributes.type %></div>
-	</td>
-	<td data-label="Type">
-		<div class="slds-truncate" title="Record"><%= context.environment.record.Id %></div>
-	</td>
-</tr>
+			<tr class="slds-hint-parent">
+				<th data-label="Type" scope="row">
+					<div class="slds-truncate" title="Cloudhub">
+						<a href="javascript:void(0);" tabindex="-1">Payment</a>
+					</div>
+				</th>
+				<td data-label="Account Name">
+					<div class="slds-truncate" title="Cloudhub">Cloudhub</div>
+				</td>
+				<td data-label="Close Date">
+					<div class="slds-truncate" title="4/14/2015">7/19/2015</div>
+				</td>
+				<td data-label="Amount">
+					<div class="slds-truncate" title="Prospecting">$1200</div>
+				</td>
+				<td data-label="User">
+					<div class="slds-truncate" title="User"><%= context.user.fullName %></div>
+				</td>
+				<td data-label="Type">
+					<div class="slds-truncate" title="Type"><%= context.environment.record.attributes.type %></div>
+				</td>
+				<td data-label="Type">
+					<div class="slds-truncate" title="Record"><%= context.environment.record.Id %></div>
+				</td>
+			</tr>
 
-<tr class="slds-hint-parent">
-	<th data-label="Type" scope="row">
-		<div class="slds-truncate" title="Cloudhub">
-		<a href="javascript:void(0);" tabindex="-1">Payment</a>
-		</div>
-	</th>
-	<td data-label="Account Name">
-		<div class="slds-truncate" title="Cloudhub">Cloudhub</div>
-	</td>
-	<td data-label="Close Date">
-		<div class="slds-truncate" title="4/14/2015">7/19/2015</div>
-	</td>
-	<td data-label="Amount">
-		<div class="slds-truncate" title="Prospecting">$1200</div>
-	</td>
-	<td data-label="User">
-		<div class="slds-truncate" title="User"><%= context.user.fullName %></div>
-	</td>
-	<td data-label="Type">
-		<div class="slds-truncate" title="Type"><%= context.environment.record.attributes.type %></div>
-	</td>
-	<td data-label="Type">
-		<div class="slds-truncate" title="Record"><%= context.environment.record.Id %></div>
-	</td>
-</tr>
+			<tr class="slds-hint-parent">
+				<th data-label="Type" scope="row">
+					<div class="slds-truncate" title="Cloudhub">
+						<a href="javascript:void(0);" tabindex="-1">Debit</a>
+					</div>
+				</th>
+				<td data-label="Account Name">
+					<div class="slds-truncate" title="Cloudhub">Cloudhub</div>
+				</td>
+				<td data-label="Close Date">
+					<div class="slds-truncate" title="4/14/2015">6/14/2015</div>
+				</td>
+				<td data-label="Amount">
+					<div class="slds-truncate" title="Prospecting">$300</div>
+				</td>
+				<td data-label="User">
+					<div class="slds-truncate" title="User"><%= context.user.fullName %></div>
+				</td>
+				<td data-label="Type">
+					<div class="slds-truncate" title="Type"><%= context.environment.record.attributes.type %></div>
+				</td>
+				<td data-label="Type">
+					<div class="slds-truncate" title="Record"><%= context.environment.record.Id %></div>
+				</td>
+			</tr>
 
-<tr class="slds-hint-parent">
-	<th data-label="Type" scope="row">
-		<div class="slds-truncate" title="Cloudhub">
-		<a href="javascript:void(0);" tabindex="-1">Debit</a>
-		</div>
-	</th>
-	<td data-label="Account Name">
-		<div class="slds-truncate" title="Cloudhub">Cloudhub</div>
-	</td>
-	<td data-label="Close Date">
-		<div class="slds-truncate" title="4/14/2015">6/14/2015</div>
-	</td>
-	<td data-label="Amount">
-		<div class="slds-truncate" title="Prospecting">$300</div>
-	</td>
-	<td data-label="User">
-		<div class="slds-truncate" title="User"><%= context.user.fullName %></div>
-	</td>
-	<td data-label="Type">
-		<div class="slds-truncate" title="Type"><%= context.environment.record.attributes.type %></div>
-	</td>
-	<td data-label="Type">
-		<div class="slds-truncate" title="Record"><%= context.environment.record.Id %></div>
-	</td>
-</tr>
-
-</tbody>
-</table>
-
+		</tbody>
+	</table>
+</div>
 </body>
